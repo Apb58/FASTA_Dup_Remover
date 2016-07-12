@@ -1,5 +1,5 @@
 #~/usr/bin/python
-#11/7/16
+# 7/11/16
 # Script to remove duplicate FASTA reads based on Identifier:
 # Given a FASTA file with some duplicate reads that share the same identifier,
 # produce a valid FASTA with the identifier removed
