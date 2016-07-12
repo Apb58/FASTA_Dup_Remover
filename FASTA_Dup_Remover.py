@@ -12,7 +12,8 @@ def f7(seq):
     #This function can be replaced by use of just the set() method if the order of the tags/FASTA does not need to be maintained
 
 
-path_to_file = raw_input("Enter path to FASTA:")
+path_to_file = raw_input("Enter path to FASTA as a string (use " "):")
+path_to_file = path_to_file.replace('"','')
 # e.g. /Users/User/Desktop/File.fas
 
 File = open(path_to_file, 'r')
